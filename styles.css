@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  width: 500px;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 2rem;
+  border-style: solid;
+}
+
+.reset-button {
+  padding: 1rem;
+  background-color: red;
+  border-color: transparent;
+  border-radius: 2rem;
+}
+
+.submit-button {
+  padding: 1rem;
+  background-color: aqua;
+  border-color: transparent;
+  border-radius: 2rem;
+}
